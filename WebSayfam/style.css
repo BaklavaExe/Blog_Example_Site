@@ -6,18 +6,17 @@ body,h1{
 }
 body{
 	background-color: #2b2d38;
-	background-size:1920px 1080px;	
+		
     text-align: center;
 
 
-    background-image: url("Media/bg2.jpg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    margin-right: 200px;
-    background-attachment: fixed;
+	background: url(Media/bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
-
-
+	
 
 }
 .sayfa{
@@ -40,6 +39,7 @@ body{
 	margin-left: 10px;
 	background-color: #1da328;
 	border-radius: 15px;
+	
 }
  
 #menu{
